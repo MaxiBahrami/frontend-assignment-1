@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Trail Notes</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <p class="site-title"><a href="index.html">Trail Notes</a></p>
+      <nav class="main-nav" aria-label="Main menu">
+        <ul class="main-nav__list">
+          <li><a class="main-nav__link" href="index.html">Home</a></li>
+          <li><a class="main-nav__link" href="about.html">About</a></li>
+          <li><a class="main-nav__link main-nav__link--active" href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <header class="page-header">
+      <h1 class="page-header__title">Contact</h1>
+    </header>
+
+    <section class="page-content contact">
+      <div class="contact__info">
+        <h2>Get in touch</h2>
+        <p>Do you know a trail I should try? Send me a message.</p>
+        <img class="contact__image" src="images/map.svg" alt="Illustration of a trail map with a location pin" width="600" height="400">
+      </div>
+
+      <form class="contact-form" action="mailto:maxibahrami@gmail.com" method="post" enctype="text/plain">
+        <label class="contact-form__label" for="email">Your email</label>
+        <input class="contact-form__input" type="email" id="email" name="email" required>
+
+        <label class="contact-form__label" for="message">Message</label>
+        <textarea class="contact-form__input" id="message" name="message" rows="6" required></textarea>
+
+        <button class="button" type="submit">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Trail Notes</p>
+  </footer>
+</body>
+</html>

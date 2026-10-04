@@ -1,0 +1,36 @@
+/* Styles for the about page */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about__image {
+  border-radius: var(--radius);
+}
+
+.about__text h2 {
+  margin-top: 0;
+  color: var(--color-primary);
+}
+
+.about__list {
+  padding-left: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .about {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .about__image,
+  .about__text {
+    flex: 1;
+  }
+
+  .about__image {
+    min-width: 0;
+  }
+}

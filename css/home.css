@@ -1,0 +1,50 @@
+/* Styles for the home page */
+
+.page-header--hero {
+  padding: 5rem 1rem;
+}
+
+.page-header__lead {
+  margin: 0.5rem 0 0;
+  font-size: 1.15rem;
+}
+
+.trail-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.trail-card {
+  overflow: hidden;
+  border-radius: var(--radius);
+  background-color: var(--color-surface);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trail-card__image {
+  width: 100%;
+}
+
+.trail-card__body {
+  padding: 1rem;
+}
+
+.trail-card__title {
+  margin: 0 0 0.5rem;
+  color: var(--color-primary);
+}
+
+.trail-card__body p {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .page-header--hero {
+    padding: 8rem 1rem;
+  }
+
+  .trail-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

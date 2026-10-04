@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#dcebd9"/>
+  <path d="M0 330 Q300 290 600 330 V400 H0 Z" fill="#8bb07a"/>
+  <path d="M260 400 Q300 340 330 300 L345 300 Q320 350 340 400 Z" fill="#c9a66b"/>
+  <g fill="#2f5d50">
+    <polygon points="70,330 120,150 170,330"/>
+    <polygon points="150,320 200,110 250,320"/>
+    <polygon points="390,320 440,120 490,320"/>
+    <polygon points="470,330 520,170 570,330"/>
+  </g>
+  <g fill="#3f7a68">
+    <polygon points="20,340 55,220 90,340"/>
+    <polygon points="520,345 560,240 600,345"/>
+  </g>
+</svg>

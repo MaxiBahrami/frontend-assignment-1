@@ -1,0 +1,60 @@
+/* Styles for the contact page */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact__info h2 {
+  margin-top: 0;
+  color: var(--color-primary);
+}
+
+.contact__image {
+  border-radius: var(--radius);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  background-color: var(--color-surface);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form__label {
+  font-weight: 600;
+}
+
+.contact-form__input {
+  width: 100%;
+  margin-bottom: 0.75rem;
+  padding: 0.6rem;
+  border: 1px solid #bbbbbb;
+  border-radius: var(--radius);
+  font: inherit;
+}
+
+.contact-form__input:focus {
+  outline: 2px solid var(--color-accent);
+  border-color: transparent;
+}
+
+.contact-form .button {
+  align-self: flex-start;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .contact__info,
+  .contact-form {
+    flex: 1;
+  }
+}
